@@ -1,6 +1,9 @@
 ASEG
 
+
 include const.i80
+
+
 
 MAX_NAME_LEN    equ 29          ; макс. длина имени устройства
 CPM_TYPE        equ 2           ; код типа основного раздела CP/M
@@ -50,6 +53,8 @@ INP macro reg, port
         mov     reg, A
     ENDIF
 endm
+
+
 
 
         ORG 4000h

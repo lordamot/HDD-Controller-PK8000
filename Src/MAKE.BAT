@@ -1,5 +1,6 @@
 @echo on
 del ..\ROM\pk8000_hdd.bin
+
 cls
 ..\Bin\ma80.exe Bios,bios=bios
 if errorlevel == 1 goto error
